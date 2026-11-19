@@ -1,0 +1,42 @@
+{
+  "app_name": "EDGECAM",
+  "package_name": "edgecam",
+  "version": "1.0.0",
+  "bin_name": "edgecam",
+  "description": "DV-style viewfinder camera with dual filters for CardputerZero",
+
+  "store": {
+    "summary": "DV-style viewfinder camera with cool/film filters, zoom and snapshots.",
+    "description": "A full-screen DV viewfinder camera for the M5Stack CardputerZero. It draws a 320x170 HUD with REC/timecode, battery, exposure readout and a zoom bar, applies either a cool NORMAL grade or the warm KARAX film look, takes 1640x1232 stills with the active filter, records filtered 320x170 MP4 clips and can hide the whole HUD with one key.",
+    "categories": ["Media", "Creative & Office"],
+    "screenshots": [
+      "screenshots/01-normal.png",
+      "screenshots/02-karax.png",
+      "screenshots/06-zoom.png",
+      "screenshots/04-help-zh.png"
+    ],
+    "icon": "assets/icon-256.png",
+    "license": "MIT",
+    "source_repo": "https://github.com/YOUR_GITHUB_LOGIN/edgecam",
+    "author": {
+      "github": "YOUR_GITHUB_LOGIN",
+      "display_name": "YOUR_DISPLAY_NAME"
+    },
+    "share_code": "EDG2",
+    "permissions": {
+      "camera": true,
+      "microphone": false,
+      "imu": false,
+      "network": false,
+      "additional_hardware": false,
+      "background_service": false,
+      "external_display": false
+    },
+    "locales": {
+      "zh-CN": {
+        "title": "EDGECAM 取景相机",
+        "summary": "DV 取景器风格相机：冷调/胶片双滤镜、变焦、拍照与录像。"
+      }
+    }
+  }
+}
